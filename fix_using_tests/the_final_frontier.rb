@@ -11,19 +11,19 @@ def state_log(star_date)
   puts "Captain's Log, star date #{star_date}."
 end
 
-def crew
-  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
-end
+# def crew
+#   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+# end
 
 # def greet_crew (crew)
 #   crew.each {|crew_member| "Hello #{crew_member}."}
 # end
 
-def greet_crew(crew)
-   crew.each do |crew_mem|
-    puts "hello, #{crew_mem}"
-   end
-end
+# def greet_crew(crew)
+#    crew.each do |crew_mem|
+#     puts "hello, #{crew_mem}"
+#    end
+# end
 
 def engage
   date = generate_star_date
