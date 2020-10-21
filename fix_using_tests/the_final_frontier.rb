@@ -19,11 +19,9 @@ end
 #   crew.each {|crew_member| "Hello #{crew_member}."}
 # end
 
-# def greet_crew(crew)
-#    crew.each do |crew_mem|
-#     puts "hello, #{crew_mem}"
-#    end
-# end
+def greet_crew(crew)
+  crew.map {|crew_member| "Hello #{crew_member}."}
+end
 
 def engage
     state_log(star_date)
